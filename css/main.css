@@ -1,0 +1,281 @@
+@import url('media.css');
+body {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    src:url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+/*Header*/
+.header {
+    background-image: url("../img/bg_header.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 45px;
+    padding-bottom: 140px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Yeseva One', cursive;
+}
+.menu{
+
+}
+.menu__item {
+    margin: 0 15px;
+}
+
+.menu__item a {
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header_title {
+    color: #fff;
+}
+
+h1 {
+    font-size: 76px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+.promo {
+    text-align: center;
+    padding-top: 125px;
+}
+
+.decoration {
+    margin-top: 25px;
+    margin-bottom: 34px;
+}
+
+.booking button {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.book__btn, .menu__btn {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    width: 230px;
+    height: 57px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.booking a{
+    text-decoration: none;
+    color:#fff;
+}
+.menu__btn {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid white;
+}
+
+/*Section About*/
+
+h2 {
+    font-size: 36px;
+    color: #cc9900;
+}
+
+article {
+    text-align: center;
+}
+
+article {
+    padding: 80px 0;
+}
+
+article p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #4c4c4c;
+    margin: 0 auto;
+    width: 410px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+
+.about {
+    background-image: url("../img/bg_section.png");
+    background-size: cover;
+}
+
+.about__photo {
+    padding-left: 15%;
+}
+
+.about__dish {
+    padding: 70px 0 50px 0;
+}
+
+/*Section Ingredients*/
+
+h3 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.ingredients {
+    padding: 100px 0;
+    background-image: url("../img/bg_ingredients.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ingredients p {
+    font-size: 16px;
+}
+
+.ingredients article {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.ingredients article p {
+    color: #fff;
+}
+
+.ingredients__item {
+    padding: 0 15px;
+}
+
+/*Section Menu*/
+
+.restaurant_menu {
+    background-image: url("../img/bg_section.png");
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.restaurant_menu h2 {
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.decor {
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+}
+
+.dish__item {
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+}
+
+.dish_description p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #000;
+    white-space: nowrap;
+}
+
+hr {
+    margin-top: -10px;
+    opacity: 0.3;
+    border-width: 1px;
+    border-color: #cc9900;
+}
+
+/*Section Reviews*/
+.reviews {
+    background: url("../img/bg_review.jpg") no-repeat;
+    background-attachment: fixed;
+
+}
+.reviews article {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.reviews article p {
+    color: #fff;
+}
+
+.reviews__text {
+    width: 630px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.reviews__inc {
+    font-size: 18px;
+    margin-top: -50px;
+}
+
+/*Section Reservation*/
+.reservation {
+    background: url("../img/bg_section.png")  no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.reservation img{
+    padding-right:30px;
+}
+
+.reservation__text {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.reservation__block{
+    padding-left:30px;
+}
+.reservation h4 {
+    color: #cc9900;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 30px;
+}
+
+.reservation button {
+    background-color: #dcb035;
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    border:0;
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+   cursor: pointer;
+}
+
+/*Footer*/
+footer{
+    padding:50px 0px;
+    background: #000;
+}
+h5, footer p{
+    color:#fff;
+    text-align: center;
+}
+footer p{
+    font-size: 16px;
+    font-family: 'Open Sans Light';
+    font-weight:lighter;
+}
+footer .container{
+    padding-left: 30px;
+}
+footer span{
+    font-family: 'Open Sans', sans-serif;
+}
+.payment_system{
+    padding-top: 45px;
+}
+

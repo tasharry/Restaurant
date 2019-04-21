@@ -1,0 +1,59 @@
+@media screen and (max-width: 992px) {
+  header .logo{
+      display:block;
+      margin:0 auto;
+  }
+   .menu ul{
+       padding-top:40px;
+       flex-direction: column;
+       text-align:center;
+   }
+   .menu li{
+       padding-top:25px;
+   }
+   .promo{
+       padding-top:-80px;
+   }
+  .promo h1{
+       font-size:60px;
+   }
+  .dish_type__title{
+      flex-direction: column;
+      text-align:center;
+  }
+  .dish__photo{
+      text-align:center;
+      display:inline-block !important;
+      padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+    .promo h1{
+        font-size:25px;
+    }
+    p{
+        max-width:80%;
+    }
+    article h2,h3{
+        font-size:25px !important;
+    }
+    .booking{
+        flex-direction: column;
+    }
+    .booking button{
+        margin:0 auto;
+        margin-bottom:30px;
+    }
+    .ingredients__item{
+        max-width:30%;
+        max-height:30%;
+    }
+   footer p, .reservation__block p{
+      margin:0 auto;
+   }
+   .reservation img{
+       margin:0 auto;
+       padding-right:0 !important;
+       padding-bottom:20px;
+   }
+}
